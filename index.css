@@ -1,0 +1,23 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    @apply font-sans;
+  }
+
+  
+#root{
+    width: 100vw;
+    height: 100vh;
+}
+
+.react-datepicker-wrapper{
+    width: 100% !important;
+}
+
+.react-datepicker__day--selected{
+    background-color: #38C68B;
+}
